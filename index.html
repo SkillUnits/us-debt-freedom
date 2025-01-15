@@ -12,14 +12,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="scripts/swiper.js" type="module"></script>
-    <script src="scripts/slider.js" type="module"></script>
+    <script src="./scripts/swiper.js" type="module"></script>
+    <script src="./scripts/slider.js" type="module"></script>
+
+
+    <script>
+		(function (w,d,s,o,f,js,fjs) { w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) }; js = d.createElement(s), fjs = d.getElementsByTagName(s)[0]; js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);}(window, document, 'script', 'mcc', 'https://marketcall.com/js/mc-calltracking.js'));
+		
+		var url_string = window.location.href;
+		var url = new URL(url_string);
+		var newsbreak_cid = url.searchParams.get("newsbreak_cid");
+
+		mcc('init', { site: 694, serviceBaseUrl: '//www.marketcall.com' });
+		mcc('requestTrackingNumber', {campaign:"311725",selector:[{type:"dom",value:"a[href^='tel:']"}],mask:"+x (xxx) xxx-xx-xx",subid:"{subid}",subid1:"{tc_id}",subid2:newsbreak_cid});
+		</script>
+		<!-- Phone calls validation code -->
+		<!-- Install the code on all pages of your site -->
+		<script
+		id="__tc_script"
+		src="https://static.truecall.com/truecall.js"
+		data-campaign_uuid="06dqfudjo6fbl031kkou8z1762qzz1ds7hme"
+		data-skip_injection="true"
+		>
+	</script>
+
 </head>
 <body>
     <div class="parity-banner">
         <div class="parity-banner-inner">
             <p>It's so easy to be a <span class="accent">DEBT FREE</span>. Make a call to <span class="accent">change your life</span></p>
-            <a class="banner-num" href="tel:+1xxxxxxxxx">+1 xxx xxx xxx</a>
+            <a class="banner-num" href="tel:+1(888)217-3304">+1 (888) 217-3304</a>
         </div>
     </div>
     <main>
@@ -370,7 +392,7 @@
                 </div>
             </div>
 
-            <a href="tel:+1xxxxxxxxx" class="tel-button delete">+1 xxx-xxx-xxx</a>
+            <a href="tel:+1 (888) 217-3304" class="tel-button delete">+1 (888) 217-3304</a>
 
             <h2 class="satisfied-title">Why more than 16,800+ satisfied customers just ❤️ the US Debt Freedom</h2>
 
