@@ -759,6 +759,28 @@ footer {
 }
 .savings {
     margin: 0;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 700;
+}
+
+.privacy-policy-content {
+    max-width: 860px;
+    width: 90%;
+    padding-top: 40px;
+}
+.privacy-policy-content h1 {
+    font-size: 42px;
+}
+.privacy-policy-content h2 {
+    text-transform: uppercase;
+}
+.privacy-policy-content p {
+    font-size: 18px;
+}
+.privacy-policy-content em {
+    font-weight: 700;
+}
+.privacy-policy-content a {
+    text-decoration: underline;
+    color: #323232;
 }
