@@ -724,10 +724,15 @@ footer {
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 25px;
-    height: 25px;
+    width: 45px;
+    height: 32px;
     background: #0037D4;
+    border: none;
+    border-radius: 7px;
     cursor: pointer;
+    background-image: url(../images/lines.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .slider::-moz-range-thumb {
     width: 45px;
