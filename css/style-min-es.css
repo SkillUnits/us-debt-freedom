@@ -1,0 +1,321 @@
+@media (max-width: 991px) {
+    body {
+        font-size: 17px;
+    }
+    .officer-name {
+        font-size: 18px;
+    }
+    .client-feedback {
+        background-size: 150px;
+    }
+    .client h3 {
+        font-size: 18px;
+    }
+
+    .card h2 {
+        font-size: 36px;
+    }
+    .card .text-block {
+        font-size: 17px;
+    }
+    .text-block-variation {
+        font-size: 17px;
+    }
+    .parity-banner-inner {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 760px) {
+    .parity-banner {
+        font-size: 1.6rem;
+        top: -1;
+    }
+    .parity-banner-inner {
+        padding-left: 10px;
+    }
+    .officer-name {
+        font-size: 16px;
+    }
+    .head-title {
+        font-size: 30px;
+        margin-top: 32px;
+        width: 90%;
+    }
+    .head-block-paragraph {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .tel-button {
+        padding: 22px 0 22px 0;
+        width: 90%;
+        max-width: 390px;
+    }
+    .client-feedback {
+        background-size: 120px;
+    }
+    .client h3 {
+        font-size: 16px;
+    }
+    .title {
+        font-size: 38px;
+    }
+    .signature-block {
+        margin-top: 10px;
+    }
+    .signature-block-inner {
+        margin-top: 20px;
+    }
+    .signature p {
+        font-size: 14px;
+    }
+
+    .card {
+        flex-wrap: wrap;
+    }
+    .card h2 {
+        font-size: 30px;
+    }
+    .card .text-block {
+        font-size: 16px;
+    }
+    .card-inner {
+        padding: 0 30px 0 30px;
+    }
+    .card-inner h3 {
+        font-size: 32px;
+    }
+    .text-block-variation {
+        font-size: 16px;
+    }
+
+    .swiper {
+        max-width: 1000px;
+        width: 100%;
+        height: 450px;
+    }
+    .swiper-slide {
+        display: flex !important;
+        justify-content: center;
+        padding-bottom: 60px;
+        height: 90% !important;
+    }
+    .swiper .client-feedback {
+        padding: 60px 20px 60px 20px;
+        width: 80%;
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 475px) {
+    body {
+        font-size: 16px;
+    }
+    .parity-banner {
+        font-size: 1.4rem;
+        top: -1;
+    }
+    .parity-banner p {
+        max-width: 60%;
+    }
+    .banner-num {
+        font-size: 13px;
+        height: 38px;
+        width: 180px;
+    }
+
+    .no1-debt-block {
+        width: 295px;
+    }
+    .no1-debt-block h2 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #0037D4;
+    }
+    .no1-debt-block p {
+        font-size: 10px;
+    }
+
+    .before-after-block {
+        height: 90px;
+        max-width: 90%;
+        padding: 16px 0 10px 0;
+    }
+    .arrow-block img {
+        width: 24px;
+        height: 24px;
+    }
+    .before-after-block p {
+        font-size: 12px;
+    }
+    .before-after-block h3 {
+        font-size: 20px;
+    }
+    .ba-debt-amount {
+        font-size: 24px !important;
+    }
+    .officer-link {
+        margin-bottom: 0;
+        margin-top: 16px;
+    }
+    .officer-image {
+        width: 60px;
+        height: 60px;
+    }
+    .officer-block-position {
+        font-size: 14px;
+        margin-top: -2px;
+    }
+    .head-block {
+        margin-top: 25px;
+    }
+    .tel-button {
+        padding: 24px 0 24px 0;
+    }
+    .client-feedback {
+        background-size: 80px;
+        padding: 30px 18px 30px 18px;
+        margin-bottom: 0;
+        margin-top: 36px;
+    }
+    .client-feedback-inner .score {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .client-feedback-inner .client {
+        flex-direction: row;
+        align-items: flex-start;
+        row-gap: 5px;
+    }
+    .client-feedback-inner .verified {
+        font-size: 14px;
+    }
+    .client .client-image {
+        max-width: 45px;
+    }
+    .client .client-name {
+        align-self: center !important;
+        row-gap: 0px;
+    }
+    .client .client-name-diff {
+        align-self: center !important;
+        row-gap: 0px;
+        padding-top: 10px;
+    }
+    .client-position {
+        font-size: 14px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .signature-block {
+        margin-top: 10px;
+    }
+    .signature-block-inner {
+        margin-top: 10px;
+    }
+    .signature p {
+        font-size: 13px;
+    }
+
+    .card {
+        padding-top: 30px;
+        margin-top: 60px;
+    }
+    .card h2 {
+        font-size: 24px;
+        width: 90%;
+    }
+    .card .text-block {
+        padding-right: 20px;
+        padding-left: 20px;
+        width: 90%;
+    }
+    .card-footer {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-footer-inner {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .people-we-helped {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .card-footer img {
+        max-width: 229px;
+        max-height: 30px;
+    }
+    .firecard {
+        padding-top: 70px;
+    }
+    .card-inner {
+        padding: 0 20px 25 20px;
+    }
+    .card-inner h3 {
+        font-size: 28px;
+        max-width: 200px;
+    }
+
+    .trust-me {
+        font-size: 26px;
+    }
+    .overlay-image {
+        max-width: 277px;
+        max-height: 260px;
+        margin-top: 24px;
+    }
+    .how-this-work h2 {
+        font-size: 26px;
+        margin: 0 auto;
+    }
+    .how-this-work ul {
+        padding-left: 0;
+    }
+    .span-title {
+        font-size: 16px;
+    }
+    .icon {
+        font-size: 16px;
+    }
+    .satisfied-title {
+        font-size: 26px;
+        width: 90%;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .footer-inner {
+        max-width: 90%;
+    }
+    .debt-calculator {
+        padding: 20px 0 0 0;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .debt-calculator h2 {
+        font-size: 24px;
+    }
+    .slider-container {
+        width: 95%;
+    }
+    .slider::-moz-range-thumb {
+        width: 23px;
+        height: 23px;
+        border-radius: 100%;
+    }
+    .debt-range p {
+        font-size: 14px;
+    }
+    .savings {
+        font-size: 18px;
+    }
+    .savings {
+        font-size: 26px;
+    }
+}
